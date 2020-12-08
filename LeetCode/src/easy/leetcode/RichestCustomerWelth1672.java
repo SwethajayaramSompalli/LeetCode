@@ -12,7 +12,7 @@ public class RichestCustomerWelth1672 {
 
 
 
-class Solution {
+class RichestCustomerWelth1672Solution {
     public int maximumWealth(int[][] accounts) {
         List<Integer> sum = new ArrayList<>();
         int temp =0;
