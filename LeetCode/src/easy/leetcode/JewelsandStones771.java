@@ -59,8 +59,7 @@ Memory Usage: 37.8 MB, less than 16.15% of Java online submissions for Jewels an
         int identify[] = new int[128];
         J.chars().forEach(c -> identify[c] = 1);
         return (int)S.chars().filter(c -> identify[c] == 1).count();
-    }
-    
-    */
+    }  
+*/
  
 
