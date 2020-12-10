@@ -7,7 +7,7 @@ public class HowManyNumbersAreSmallerThantheCurrentNumber1365 {
 
 
 
-class 1365Solution {
+class HowManyNumbersAreSolution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         
         int[] smallnums = new int[nums.length];
