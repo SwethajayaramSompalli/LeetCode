@@ -19,6 +19,8 @@ class SumofAllOddLengthSubarrays1588Solution {
     }
 }
 
+//Runtime: 2 ms, faster than 49.21% of Java online submissions for Sum of All Odd Length Subarrays.
+//Memory Usage: 36.3 MB, less than 97.64% of Java online submissions for Sum of All Odd Length Subarrays.
 
 /*
 
@@ -55,9 +57,11 @@ public int sumOddLengthSubarrays(int[] arr) {
 }
 Method 3: T: O(n) | S: O(1) | Counting element occurence
 •	courtesy: https://leetcode.com/problems/sum-of-all-odd-length-subarrays/discuss/980310/Dew-It-or-O(n)-1-pass-or-(Almost)-No-math
-•	A brilliant solution-explanation combo, please upvote it.
 •	I've slightly refactored the above solution. Please read the original solution to understand better.
-•	IMO, this solution is one of those that if you already know it, then you know it, else its not easy to conjure this in a live interview, unless you have acute observation skills. No interviewer should expect this solution. Expectation would be that you come up with Method 1 then optimise it to Method 2.
+•	IMO, this solution is one of those that if you already know it, then you know it, else its not easy to conjure this in a live interview, unless you have acute observation skills. 
+No interviewer should expect this solution. Expectation would be that you come up with Method 1 then optimise it to Method 2.
+
+
 public int sumOddLengthSubarrays(int[] arr) {
 
 	int n = arr.length, sum = 0;
