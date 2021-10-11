@@ -25,3 +25,5 @@ class LinkedListtoInteger1290Solution {
         return Integer.parseInt(sb,2);
     }
 }
+
+//Testing by github desktop - sublime
