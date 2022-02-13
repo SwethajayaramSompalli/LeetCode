@@ -1,4 +1,4 @@
-package easy.leetcode;
+package easy;
 
 public class CountofMatchesinTournament1688 {
 

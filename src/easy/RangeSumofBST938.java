@@ -1,4 +1,4 @@
-package easy.leetcode;
+package easy;
 
 import javax.swing.tree.TreeNode;
 

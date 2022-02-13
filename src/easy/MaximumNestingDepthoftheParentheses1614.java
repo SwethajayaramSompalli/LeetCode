@@ -1,4 +1,4 @@
-package easy.leetcode;
+package easy;
 
 public class MaximumNestingDepthoftheParentheses1614 {
 
